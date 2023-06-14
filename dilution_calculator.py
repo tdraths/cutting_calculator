@@ -89,7 +89,7 @@ with st.sidebar:
 
     # Get Desired Final Blend ABV
     qty.subheader('Desired Final Blended ABV %:')
-    target_abv = qty.number_input(label='', min_value=0.0, max_value=70.0, value=46.0, step=0.5)
+    target_abv = qty.number_input(label='', min_value=0.0, value=46.0, step=0.5)
 
     # Step One Submit Button
     qty.form_submit_button('COMPLETE STEP ONE HERE')
@@ -112,7 +112,7 @@ with details:
                     
             name_alc_1 = st.text_input('Alcohol Name:', value="Single Malt", key='name_1')
 
-            abv_alc_1 = st.number_input('Spirit ABV %:', max_value=70.0, value=63.0, step=0.05, key='abv_1')
+            abv_alc_1 = st.number_input('Spirit ABV %:', value=63.0, step=0.05, key='abv_1')
 
             vol_alc_1 = total_volume*(perc_alc_1/100)
 
@@ -127,7 +127,7 @@ with details:
 
             name_alc_1 = st.text_input('Alcohol Name:', value="Single Malt", key='name_1')
         
-            abv_alc_1 = st.number_input('Spirit ABV %:', min_value=48.0, max_value=70.0, value=63.0, step=0.05, key='abv_1')
+            abv_alc_1 = st.number_input('Spirit ABV %:', value=63.0, step=0.05, key='abv_1')
 
             vol_alc_1 = total_volume*(perc_alc_1/100)
 
@@ -139,7 +139,7 @@ with details:
 
             name_alc_2 = st.text_input('Alcohol Name:', value="Single Malt", key='name_2')
         
-            abv_alc_2 = st.number_input('Spirit ABV %:', min_value=48.0, max_value=70.0, value=63.0, step=0.05, key='abv_2')
+            abv_alc_2 = st.number_input('Spirit ABV %:', value=63.0, step=0.05, key='abv_2')
 
             vol_alc_2 = total_volume*(perc_alc_2/100)
 
@@ -154,7 +154,7 @@ with details:
 
             name_alc_1 = st.text_input('Alcohol Name:', value="Single Malt", key='name_1')
         
-            abv_alc_1 = st.number_input('Spirit ABV %:', min_value=48.0, max_value=70.0, value=63.0, step=0.05, key='abv_1')
+            abv_alc_1 = st.number_input('Spirit ABV %:', value=63.0, step=0.05, key='abv_1')
 
             vol_alc_1 = total_volume*(perc_alc_1/100)
 
@@ -166,7 +166,7 @@ with details:
 
             name_alc_2 = st.text_input('Alcohol Name:', value="Single Malt", key='name_2')
         
-            abv_alc_2 = st.number_input('Spirit ABV %:', min_value=48.0, max_value=70.0, value=63.0, step=0.05, key='abv_2')
+            abv_alc_2 = st.number_input('Spirit ABV %:', value=63.0, step=0.05, key='abv_2')
 
             vol_alc_2 = total_volume*(perc_alc_2/100)
 
@@ -179,7 +179,7 @@ with details:
 
             name_alc_3 = st.text_input('Alcohol Name:', value="Single Malt", key='name_3')
         
-            abv_alc_3 = st.number_input('Spirit ABV %:', min_value=48.0, max_value=70.0, value=63.0, step=0.05, key='abv_3')
+            abv_alc_3 = st.number_input('Spirit ABV %:', value=63.0, step=0.05, key='abv_3')
 
             vol_alc_3 = total_volume*(perc_alc_3/100)
 
@@ -194,7 +194,7 @@ with details:
 
             name_alc_1 = st.text_input('Alcohol Name:', value="Single Malt", key='name_1')
             
-            abv_alc_1 = st.number_input('Spirit ABV %:', min_value=48.0, max_value=70.0, value=63.0, step=0.05, key='abv_1')
+            abv_alc_1 = st.number_input('Spirit ABV %:', value=63.0, step=0.05, key='abv_1')
 
             vol_alc_1 = total_volume*(perc_alc_1/100)
 
@@ -206,7 +206,7 @@ with details:
 
             name_alc_2 = st.text_input('Alcohol Name:', value="Single Malt", key='name_2')
             
-            abv_alc_2 = st.number_input('Spirit ABV %:', min_value=48.0, max_value=70.0, value=63.0, step=0.05, key='abv_2')
+            abv_alc_2 = st.number_input('Spirit ABV %:', value=63.0, step=0.05, key='abv_2')
 
             vol_alc_2 = total_volume*(perc_alc_2/100)
 
@@ -218,7 +218,7 @@ with details:
 
             name_alc_3 = st.text_input('Alcohol Name:', value="Single Malt", key='name_3')
         
-            abv_alc_3 = st.number_input('Spirit ABV %:', min_value=48.0, max_value=70.0, value=63.0, step=0.05, key='abv_3')
+            abv_alc_3 = st.number_input('Spirit ABV %:', value=63.0, step=0.05, key='abv_3')
 
             vol_alc_3 = total_volume*(perc_alc_3/100)
 
@@ -230,7 +230,7 @@ with details:
 
             name_alc_4 = st.text_input('Alcohol Name:', value="Single Malt", key='name_4')
             
-            abv_alc_4 = st.number_input('Spirit ABV %:', min_value=48.0, max_value=70.0, value=63.0, step=0.05, key='abv_4')
+            abv_alc_4 = st.number_input('Spirit ABV %:', value=63.0, step=0.05, key='abv_4')
 
             vol_alc_4 = total_volume*(perc_alc_4/100)
 
@@ -246,7 +246,7 @@ with details:
 
             name_alc_1 = st.text_input('Alcohol Name:', value="Single Malt", key='name_1')
             
-            abv_alc_1 = st.number_input('Spirit ABV %:', min_value=48.0, max_value=70.0, value=63.0, step=0.05, key='abv_1')
+            abv_alc_1 = st.number_input('Spirit ABV %:', value=63.0, step=0.05, key='abv_1')
 
             vol_alc_1 = total_volume*(perc_alc_1/100)
 
@@ -258,7 +258,7 @@ with details:
 
             name_alc_2 = st.text_input('Alcohol Name:', value="Single Malt", key='name_2')
             
-            abv_alc_2 = st.number_input('Spirit ABV %:', min_value=48.0, max_value=70.0, value=63.0, step=0.05, key='abv_2')
+            abv_alc_2 = st.number_input('Spirit ABV %:', value=63.0, step=0.05, key='abv_2')
 
             vol_alc_2 = total_volume*(perc_alc_2/100)
 
@@ -270,7 +270,7 @@ with details:
 
             name_alc_3 = st.text_input('Alcohol Name:', value="Single Malt", key='name_3')
         
-            abv_alc_3 = st.number_input('Spirit ABV %:', min_value=48.0, max_value=70.0, value=63.0, step=0.05, key='abv_3')
+            abv_alc_3 = st.number_input('Spirit ABV %:', value=63.0, step=0.05, key='abv_3')
 
             vol_alc_3 = total_volume*(perc_alc_3/100)
 
@@ -282,7 +282,7 @@ with details:
 
             name_alc_4 = st.text_input('Alcohol Name:', value="Single Malt", key='name_4')
             
-            abv_alc_4 = st.number_input('Spirit ABV %:', min_value=48.0, max_value=70.0, value=63.0, step=0.05, key='abv_4')
+            abv_alc_4 = st.number_input('Spirit ABV %:', value=63.0, step=0.05, key='abv_4')
 
             vol_alc_4 = total_volume*(perc_alc_4/100)
 
@@ -294,7 +294,7 @@ with details:
 
             name_alc_5 = st.text_input('Alcohol Name:', value="Single Malt", key='name_5')
 
-            abv_alc_5 = st.number_input('Spirit ABV%:', min_value=48.0, max_value=70.0, value=63.0, step=0.05, key='abv_5')
+            abv_alc_5 = st.number_input('Spirit ABV%:', value=63.0, step=0.05, key='abv_5')
 
             vol_alc_5 = total_volume*(perc_alc_5/100)
 
