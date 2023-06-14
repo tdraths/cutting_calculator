@@ -85,7 +85,7 @@ with st.sidebar:
 
     # Get Desired Total Blend Volume
     qty.subheader('Total Volume of Samples in mL or L:')
-    total_volume = qty.number_input(label='', min_value=0, max_value=5000, step=100)
+    total_volume = qty.number_input(label='', step=100)
 
     # Get Desired Final Blend ABV
     qty.subheader('Desired Final Blended ABV %:')
